@@ -1,0 +1,136 @@
+body{
+	background: #FFB480;
+}
+h1 { 
+	color:#FF2400;
+	text-align: center;
+	font-family: 'KoHo', sans-serif;
+	font-weight: 700;
+	font-size: 30px
+ 	}
+ h2 {
+ 	color:#FF2400;
+ 	text-align: center;
+ 	font-family: raleway;
+ 	font-weight: 600;
+ 	font-size: 23px
+ 	}
+ p {
+ 	text-align: center;
+	font-family: 'Lato', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 17px
+ 	}
+.Photo-de-profil {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 30%;
+	}
+.breakdance,.japon, .seo {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 30%;
+	}
+
+.description {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	}
+
+ a{
+ 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+ 	color: #ff735e;
+	text-decoration:none; 
+	}
+
+ a:hover{
+ 	color: #ffffff;
+
+}
+ .card-white{
+ 	background: white;
+	text-align: center;
+ 	padding : 40px;
+ 	margin : 20px 0;
+ 	box-shadow: 0px 10px 30px rgba(69,49,93,0.3);
+ 	border-radius: 4px;
+ }
+.container{
+	width: 700px;
+	margin: 40px auto;	
+}
+@media(max-width: 960px) {
+	.container {
+		width : 700px;}
+						 }
+@media(max-width: 720px) {
+	.container {
+		width : 500px;}
+						 }
+@media(max-width: 500px) {
+	.container {
+		width : 400px;}
+						 }
+.Photo-de-profil{
+	border: 30px #FF2400;
+}
+.btn-orange {
+	background: #7ACFDF;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px
+	}
+.btn-orange:hover {
+	background-color: black;
+	color: white;
+}
+ .list-inline{
+	list-style: none;
+	 padding-left: Opx}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230)
+}
+.list-inline i:hover {
+	color: #FF2400;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+.card {
+  background: white;
+  box-shadow: 0px 10px 30px rgba(69,49,93,0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card img {
+  width: 300px;
+}
+.card p {
+  flex-grow: 1;
+  padding-left: 20px;
+  text-align: left;
+}
+.titre-social{
+  text-align: center;
+}
+.titre-loisirs{ 
+	background: #FF5D5D;
+	text-align: center;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px
+}
+.card-title {
+	 align-items: center;
+}

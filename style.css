@@ -1,15 +1,15 @@
 body{
-	background: #FFB480;
+	background-color: #36AAB2;
 }
 h1 { 
-	color:#FF2400;
+	color:#FF5D5D;
 	text-align: center;
 	font-family: 'KoHo', sans-serif;
 	font-weight: 700;
 	font-size: 30px
  	}
  h2 {
- 	color:#FF2400;
+ 	color:#FF5D5D;
  	text-align: center;
  	font-family: raleway;
  	font-weight: 600;
@@ -42,14 +42,14 @@ h1 {
  a{
  	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
- 	color: #ff735e;
+ 	color: #267A7F;
 	text-decoration:none; 
 	}
 
  a:hover{
- 	color: #ffffff;
-
+ 	color: #267A7F;
 }
+
  .card-white{
  	background: white;
 	text-align: center;
@@ -78,13 +78,13 @@ h1 {
 	border: 30px #FF2400;
 }
 .btn-orange {
-	background: #7ACFDF;
+	background: #00BFCC;
 	color: white;
 	padding: 10px 15px;
 	border-radius: 4px
 	}
 .btn-orange:hover {
-	background-color: black;
+	background-color: #267A7F;
 	color: white;
 }
  .list-inline{
@@ -99,7 +99,7 @@ h1 {
 	color: rgb(230,230,230)
 }
 .list-inline i:hover {
-	color: #FF2400;
+	color: #267A7F;
 }
 #introduction p {
 	margin-bottom: 40px;

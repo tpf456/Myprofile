@@ -1,6 +1,7 @@
 body{
 	background-color: #36AAB2;
-}
+	}
+
 h1 { 
 	color:#FF5D5D;
 	text-align: center;
@@ -8,6 +9,7 @@ h1 {
 	font-weight: 700;
 	font-size: 30px
  	}
+
  h2 {
  	color:#FF5D5D;
  	text-align: center;
@@ -15,18 +17,32 @@ h1 {
  	font-weight: 600;
  	font-size: 23px
  	}
+
  p {
  	text-align: center;
 	font-family: 'Lato', sans-serif;
  	font-weight: 300;
  	font-size: 17px
  	}
+ 
+a{
+ 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+ 	color: #267A7F;
+	text-decoration:none; 
+	}
+
+ a:hover{
+ 	color: #267A7F;
+}
+
 .Photo-de-profil {
 	display: block;
 	margin-left:auto;
 	margin-right: auto;
 	width: 30%;
 	}
+
 .breakdance,.japon, .seo {
 	display: block;
 	margin-left:auto;
@@ -38,17 +54,6 @@ h1 {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	}
-
- a{
- 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
- 	color: #267A7F;
-	text-decoration:none; 
-	}
-
- a:hover{
- 	color: #267A7F;
-}
 
  .card-white{
  	background: white;
